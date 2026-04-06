@@ -1,4 +1,7 @@
 {
+  "/not-found": "app/not-found.js",
   "/(auth)/login/page": "app/(auth)/login/page.js",
-  "/page": "app/page.js"
+  "/(auth)/register/page": "app/(auth)/register/page.js",
+  "/(chat)/chat/page": "app/(chat)/chat/page.js",
+  "/(chat)/chat/[id]/page": "app/(chat)/chat/[id]/page.js"
 }

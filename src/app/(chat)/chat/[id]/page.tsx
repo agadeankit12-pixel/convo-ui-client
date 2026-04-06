@@ -12,12 +12,12 @@ import ChatInput from '@/components/chat/ChatInput'
 // - Shows ChatInput at the bottom
 
 interface PageProps {
-  params: Promise<{ id: string }>
+  params: { id: string }
 }
 
 export default function ConversationPage({ params }: PageProps) {
   // Next.js 14 App Router: params is a Promise in newer Next.js
-  const { id } = use(params)
+  const { id } = params
 
   const {
     messages,
